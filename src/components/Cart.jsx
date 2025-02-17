@@ -3,7 +3,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart, updateQuantity, clearCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
-import "./cart.css";
+import "./Cart.css";
 
 function Cart() {
   const dispatch = useDispatch();
