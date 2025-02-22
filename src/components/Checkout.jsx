@@ -101,7 +101,7 @@ useEffect(() => {
         </label>
       </form>
 
-      {/* عرض المنتجات في السلة */}
+     
       <div className="cart-items">
         <h3>Your Cart:</h3>
         {cartItems.length > 0 ? (
