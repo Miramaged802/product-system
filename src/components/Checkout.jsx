@@ -20,13 +20,13 @@ function Checkout() {
     address: "",
   });
 
-  // حساب السعر الإجمالي
+  
   const totalPrice = cartItems.reduce(
     (total, item) => total + item.price * item.quantity,
     0
   );
 useEffect(() => {
-  // استعادة بيانات المستخدم من localStorage عند بدء التطبيق
+  // استرجاع بيانات المستخدم من المتغير الذي تم حفظه في localStorage
   const savedUser = localStorage.getItem("user");
   if (savedUser) {
     setUserData(JSON.parse(savedUser));
